@@ -1,0 +1,14 @@
+On cmd in the disease_app folder:
+npm install jquery
+npm i react-select
+npm i flux
+npm start
+
+On anaconda terminal:
+pip install flask
+pip install -U flask-cors
+
+Before displaying enter following on anaconda terminal:
+python app.py
+
+
