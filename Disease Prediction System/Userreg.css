@@ -1,0 +1,46 @@
+*{ margin: 0% ;padding: 0%;}
+@import  url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+input[type=text], input[type=email] ,input[type=number] {
+width: 80%;
+padding: 5px 22px;
+margin: 10px 0px;
+box-sizing: border-box;
+border: 2px solid #58B19F;
+}
+
+
+
+input[type=submit] {
+    background-color:lightseagreen ;
+    border:none;
+    color: wheat;
+    padding: 8px 36px;
+}
+.add_user{
+    width: 100%;
+    height: 400px;
+    display:flow-root;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDT1UyKZMk2-7RbwcR7FV-euXjSd9DLYPpfhufDvDd8XEMjKrR");
+    color: white;font-size: 30px; width: 90; height: 100vh; 
+    font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    line-height: 25px;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 20px;
+    padding: 5px;
+}
+#add_symptom,#diag{
+    margin: 4px;
+    color: white;
+}
+.li{
+position:absolute;
+bottom:0;
+left:0;
+}

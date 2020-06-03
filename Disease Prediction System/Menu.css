@@ -1,0 +1,30 @@
+*{ margin: 0% ;padding: 0%;}
+@import  url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+.menustyle{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("https://cdn.hipwallpaper.com/i/72/0/Hcm8Ta.jpg");
+    color: white;font-size: 40px; width: 90; height: 100vh; 
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.menustyle ul {
+ height: 100px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.menustyle ul li {
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    
+}
+ul li:hover {background: rgb(13, 170, 47);padding: 30px;}
+
+h2{margin-top: 10%;}
+.link {
+    font-size: 40px;
+    color:white;
+  }
